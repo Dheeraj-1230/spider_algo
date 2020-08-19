@@ -17,8 +17,10 @@ int main()
 		else
 		n1++;
 	}
-	if(n0==0||n1==1)
-	cout<<-1<<endl;
+	if(n==1||n==2)
+		cout<<-1<<endl;
+	else if(n0==0||n1==1)
+		cout<<-1<<endl;
 	else
 	{
 		for(int i=n-1;i>=0;i--)
