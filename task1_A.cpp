@@ -11,7 +11,7 @@ int main()
 	for(int i=0;i<n;i++)
 	r[i]=s[i]=st[i];
    
-	int n1=0,n0=0;
+	int n1=0,n0=0;   //n0=no of zeroes and n1=no of ones
 	for(int i=0;i<n;i++)
 	{
 		if(s[i]=='0')
@@ -23,6 +23,7 @@ int main()
 	cout<<-1<<endl;
 	else
 	{
+		//print average as one less than and one greater than the given binary code
 		for(int i=n-1;i>=0;i--)
 		{
 			if(s[i]=='1')
